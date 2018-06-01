@@ -14,7 +14,8 @@ func main() {
 	vertices["dodecagon"] = 12
 
 	delete(vertices, "square")
-
+	
+	fmt.Println("test print")
 	fmt.Println(vertices)
 
 }
